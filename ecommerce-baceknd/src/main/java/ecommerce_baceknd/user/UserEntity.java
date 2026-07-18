@@ -4,10 +4,10 @@ import ecommerce_baceknd.user.enam.Role;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+@Entity
 @Table(name = "users")
 public class UserEntity {
 
-    String string="imam";
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
