@@ -1,5 +1,8 @@
 package ecommerce_baceknd.user.service;
 
+import ecommerce_baceknd.securtiy.JwtService;
+import ecommerce_baceknd.user.Dto.LoginRequest;
+import ecommerce_baceknd.user.Dto.LoginResponse;
 import ecommerce_baceknd.user.Dto.RegisterRequest;
 import ecommerce_baceknd.user.Dto.UserResponse;
 import ecommerce_baceknd.user.UserEntity;
@@ -11,4 +14,5 @@ import java.util.Optional;
 public interface UserService {
 
     public UserResponse userRegister(RegisterRequest registerRequest);
+    public LoginResponse login(LoginRequest loginRequest);
 }
