@@ -1,5 +1,6 @@
 package ecommerce_baceknd.user;
 
+import ecommerce_baceknd.common.ApiResponse;
 import ecommerce_baceknd.user.Dto.*;
 import ecommerce_baceknd.user.service.UserService;
 import jakarta.validation.Valid;

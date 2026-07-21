@@ -1,4 +1,4 @@
-package ecommerce_baceknd.user.Dto;
+package ecommerce_baceknd.common;
 
 public class ApiResponse<T>{
     private boolean success;
